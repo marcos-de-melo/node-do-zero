@@ -12,8 +12,11 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "fastify": "^5.8.2"
+    "fastify": "^5.8.2",
+    "mysql2": "^3.20.0",
+    "postgres": "^3.4.8"
+  },
+  "devDependencies": {
+    "dotenv": "^17.3.1"
   }
 }
-
-

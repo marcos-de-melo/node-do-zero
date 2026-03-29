@@ -2,28 +2,29 @@ POST http://localhost:3000/videos
 Content-Type: application/json
 
 {
-    "title": "teste",
-    "description": "Este é o primeiro video",
+    "title": "Tutorial Node",
+    "description": "Este é o primeiro video de Node.js",
     "duration": 180
 }
 ###
 
 GET http://localhost:3000/videos?search=node
+# GET http://localhost:3000/videos
 
 ###
 
-PUT http://localhost:3000/videos/768ff3db-01a6-425d-9574-3cf1d8320a95
+PUT http://localhost:3000/videos/37c90993-1b62-4113-9c7d-e8e953906ee2
 Content-Type: application/json
 
 {
-    "title": "Video 02",
-    "description": "Este é o primeiro video",
-    "duration": 180
+    "title": "Auterei este video",
+    "description": "descrição atualizada",
+    "duration": 345
 }
 
 ###
 
-DELETE  http://localhost:3000/videos/768ff3db-01a6-425d-9574-3cf1d8320a95
+DELETE  http://localhost:3000/videos/07b597f8-4139-497d-8205-139f0075daa1
 
 
 
